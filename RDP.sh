@@ -36,5 +36,5 @@ wget https://zoom.us/client/latest/zoom_amd64.deb
 sudo dpkg -i zoom_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install simplescreenrecorder mousepad
-echo "pass: 8426" > ~/Desktop/pass.txt
+echo "pass: 8426" > ~/pass.txt
 
