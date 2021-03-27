@@ -26,12 +26,7 @@ printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debia
 read -p "Paste Here: " CRP
 su - SABIT -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n\n'
-if sudo apt-get upgrade &> /dev/null
-then
-    printf "\n\nUpgrade Completed " >&2
-else
-    printf "\n\nError Occured " >&2
-fi
+
 
 sudo apt install --assume-yes --fix-broken
 echo "pass: 1111" > ~/pass.txt
